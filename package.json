@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume for Sam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/09liweis/09liweis.github.io.git"
+  },
+  "author": "Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/09liweis/09liweis.github.io/issues"
+  },
+  "homepage": "https://github.com/09liweis/09liweis.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

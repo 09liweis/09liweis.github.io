@@ -1,0 +1,104 @@
+body {
+    background: #EAEDF1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.block {
+    background: #ffffff;
+    padding: 2%;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+
+.block h1 {
+    color: #33495f;
+}
+
+#headerWrapper {
+    margin-bottom: 20px;
+}
+
+#header {
+    float: left;
+    width: 100%;
+}
+
+#info {
+    float: left;
+    width: 100%;
+}
+
+#avatar {
+    width: 100px;
+    border-radius: 10%;
+}
+
+#experience {
+    margin-bottom: 20px;
+}
+
+#experience .link {
+    display: inline-block;
+    background: #16c4ec;
+    color: #ffffff;
+    padding: 5px 30px;
+    border-radius: 4%;
+}
+
+#experience .company {
+    color: #04bca6;
+}
+
+#porfolio .link{
+    background: #10cdc1;
+}
+
+.tool {
+    width: 48%;
+    float: left;
+}
+
+.tool .name {
+    margin-bottom: 5px;
+}
+
+.bar {
+    height: 15px;
+    background: #dbe1e8;
+    border-radius: 10%;
+}
+
+.percentage {
+    width: 0%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    #header {
+        width: 30%;
+        margin-right: 2%;
+    }
+    
+    #info {
+        width: 60%;
+    }
+    
+    #work, #porfolio {
+        width: 48%;
+        float: left;
+    }
+    
+    #work {
+        margin-right: 4%;
+    }
+}
