@@ -1,61 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Resume For Sam</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link rel="stylesheet" type="text/css" media="all" href="assets/css/style.css">
-         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    </head>
-    <body>
-        <header id="headerWrapper">
-            <section class="block" id="header">
-                <img id="avatar" src="https://www.tm-town.com/assets/default_male600x600-79218392a28f78af249216e097aaf683.png" />
-                <h1>Sam Li</h1>
-            </section>
-            <section class="block" id="info">
-                <h1>Web developer</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </section>
-            <div class="clearfix"></div>
-        </header>
-        <section id="experience">
-            <section id="work">
-                <article class="block work">
-                    <h2>Web developer</h2>
-                    <h3 class="company">WebCanada Inc.</h3>
-                    <div class="work-info">
-                        <a class="link" href="http://www.webcanada.com">www.webcanada.com</a>
-                    </div>
-                </article>
-            </section>
-            <section id="porfolio">
-                <article class="block profolio">
-                    <h2>Cravings</h2>
-                    <h3 class="company">WebCanada Inc.</h3>
-                    <div class="work-info">
-                        <a class="link" href="http://www.spgcravings.com">www.spgcravings.com</a>
-                    </div>
-                </article>
-            </section>
-            <div class="clearfix"></div>
-        </section>
-        <section id="skills">
-            <section id="tools" class="block">
-                <div class="tool">
-                    <p class="name">GitLab</p>
-                    <div class="bar">
-                        <div class="percentage" data-percentage="70%" style="background-color: #10cdc1"></div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </section>
-            <section id="languages" class="block">
-                
-            </section>
-            <div class="clearfix"></div>
-        </section>
+	<head>
+		<title>Resume - Sam</title>
+		
+		<meta charset="utf-8">
+		<meta name="description" content="Page description">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		
+		<link rel="icon" href="//voky.com.ua/frittata/img/favicon.ico">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/light-colored.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+	</head>
+	
+	<body class="bg-blur bg-blur4">
+		<div id="bg" class="bg"></div>
+		
+		<div id="loader" class="loader"><div><span></span><p>Please wait, page is loading...</p></div></div>
+
+		<div id="page" class="page">
+			<!-- avatar item -->
+			<div data-sort="1" class="item item-small item-avatar">
+				<img src="https://www.tm-town.com/assets/default_male600x600-79218392a28f78af249216e097aaf683.png" alt="">
+			</div>
+			<!-- avatar item -->
+			
+			<!-- wellcome item -->
+			<div data-sort="2" class="item item-large item-wellcome">
+				<h1>Hello! My name is <strong>Sam Li</strong></h1>
+				<p>I am web developer and this is my official website.</p>
+			</div>
+			<!--/ wellcome item -->
+			
+			<!-- nav item -->
+			<div data-sort="3" class="item item-large item-nav">
+				<ul id="item-nav">
+					<li><a href="#page=home" class="active"><i class="icon-home"></i>Home</a></li>
+					<li><a href="#page=skills"><i class="icon-magic"></i>Skills</a></li>
+					<li><a href="#page=portfolio"><i class="icon-briefcase"></i>Portfolio</a></li>
+					<li><a href="#page=experiences"><i class="icon-comments-alt"></i>Experiences</a></li>
+					<!--<li><a href="#page=blog"><i class="icon-file"></i>Blog</a></li>-->
+					<li><a href="#page=contacts"><i class="icon-phone"></i>Contacts</a></li>
+				</ul>
+			</div>
+			<!--/ nav item -->
+			
+			<!-- back item -->
+			<a href="#page=portfolio" id="item-back-portfolio" class="item item-small item-color-red item-back">
+				<i class="icon-remove-sign"></i>
+				<p>Back to portfolio items list</p>
+			</a>
+			<!--/ back item -->
+			
+			<!-- back item -->
+			<a href="#page=blog" id="item-back-blog" class="item item-small item-color-red item-back">
+				<i class="icon-remove-sign"></i>
+				<p>Back to blog items list</p>
+			</a>
+			<!--/ back item -->
+			
+			<a href="#" data-sort="10" id="item-next" class="item item-small item-color-green item-next">
+				<i class="icon-circle-arrow-up"></i>
+				<p>View next work</p>
+			</a>
+			
+			<a href="#" data-sort="100" id="item-prev" class="item item-small item-color-green item-prev">
+				<i class="icon-circle-arrow-down"></i>
+				<p>View previous work</p>
+			</a>
+			
+			<!-- newer post item -->
+			<!--<a href="#" data-sort="10" id="item-newer" class="item item-small item-color-green item-newer">-->
+			<!--	<i class="icon-circle-arrow-up"></i>-->
+			<!--	<p>View newer post</p>-->
+			<!--</a>-->
+			<!--/ newer post item -->
+			
+			<!-- older post item -->
+			<!--<a href="#" data-sort="10" id="item-older" class="item item-small item-color-green item-older">-->
+			<!--	<i class="icon-circle-arrow-down"></i>-->
+			<!--	<p>View older post</p>-->
+			<!--</a>-->
+			<!--/ older post item -->
+		</div>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-        <script src="assets/js/script.js" ></script>
-    </body>
+		<script src="assets/js/jquery.ba-bbq.min.js"></script>
+		<script src="assets/js/jquery.isotope.min.js"></script>
+		<!--[if lt IE 10]><script src="js/jquery.placeholder.min.js"></script><![endif]-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+        <script src="assets/js/data.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
 </html>

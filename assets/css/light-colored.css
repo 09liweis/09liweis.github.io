@@ -1,0 +1,162 @@
+/*----------------------------------------------------------------------------*/
+/*                                   COLORS                                   */
+/*----------------------------------------------------------------------------*/
+
+/**/
+/* red */
+/**/
+.item-color-red,
+.item-color-red.item-skill span {
+	background: #b71c44;
+	color: #fff;
+}
+a.item-color-red:hover,
+.item-color-red.item-skill em,
+.item-color-red.item-skill em:after,
+.item-color-red.item-email:hover {
+	background: #fff;
+	color: #b71c44;
+}
+.item-color-red.item-skill span:after {
+	box-shadow: 0 0 0 30px #b71c44;
+}
+
+
+/**/
+/* orange */
+/**/
+.item-color-orange,
+.item-color-orange.item-skill span {
+	background: #dd592f;
+	color: #fff;
+}
+a.item-color-orange:hover,
+.item-color-orange.item-skill em,
+.item-color-orange.item-skill em:after,
+.item-color-orange.item-email:hover {
+	background: #fff;
+	color: #dd592f;
+}
+.item-color-orange.item-skill span:after {
+	box-shadow: 0 0 0 30px #dd592f;
+}
+
+
+/**/
+/* yellow */
+/**/
+.item-color-yellow,
+.item-color-yellow.item-skill span  {
+	background: #e5c72e;
+	color: #fff;
+}
+a.item-color-yellow:hover,
+.item-color-yellow.item-skill em,
+.item-color-yellow.item-skill em:after,
+.item-color-yellow.item-email:hover {
+	background: #fff;
+	color: #e5c72e;	
+}
+.item-color-yellow.item-skill span:after {
+	box-shadow: 0 0 0 30px #e5c72e;
+}
+
+
+/**/
+/* green */
+/**/
+.item-color-green,
+.item-color-green.item-skill span {
+	background: #090;
+	color: #fff;
+}
+a.item-color-green:hover,
+.item-color-green.item-skill em,
+.item-color-green.item-skill em:after,
+.item-color-green.item-email:hover {
+	background: #fff;
+	color: #090;
+}
+.item-color-green.item-skill span:after {
+	box-shadow: 0 0 0 30px #090;
+}
+
+
+/**/
+/* cyan */
+/**/
+.item-color-cyan,
+.item-color-cyan.item-skill span {
+	background: #1ab2e8;
+	color: #fff;
+}
+a.item-color-cyan:hover,
+.item-color-cyan.item-skill em,
+.item-color-cyan.item-skill em:after,
+.item-color-cyan.item-email:hover {
+	background: #fff;
+	color: #1ab2e8;	
+}
+.item-color-cyan.item-skill span:after {
+	box-shadow: 0 0 0 30px #1ab2e8;
+}
+
+
+/**/
+/* blue */
+/**/
+.item-color-blue,
+.item-color-blue.item-skill span {
+	background: #3b5998;
+	color: #fff;
+}
+a.item-color-blue:hover,
+.item-color-blue.item-skill em,
+.item-color-blue.item-skill em:after,
+.item-color-blue.item-email:hover {
+	background: #fff;
+	color: #3b5998;	
+}
+.item-color-blue.item-skill span:after {
+	box-shadow: 0 0 0 30px #3b5998;
+}
+
+
+/**/
+/* purple */
+/**/
+.item-color-purple,
+.item-color-purple.item-skill span {
+	background: #7a45e5;
+	color: #fff;	
+}
+a.item-color-purple:hover,
+.item-color-purple.item-skill em,
+.item-color-purple.item-skill em:after,
+.item-color-purple.item-email:hover {
+	background: #fff;
+	color: #7a45e5;	
+}
+.item-color-purple.item-skill span:after {
+	box-shadow: 0 0 0 30px #7a45e5;
+}
+
+
+/**/
+/* pink */
+/**/
+.item-color-pink,
+.item-color-pink.item-skill span {
+	background: #ea4c89;
+	color: #fff;
+}
+a.item-color-pink:hover,
+.item-color-pink.item-skill em,
+.item-color-pink.item-skill em:after,
+.item-color-pink.item-email:hover {
+	background: #fff;
+	color: #ea4c89;	
+}
+.item-color-pink.item-skill span:after {
+	box-shadow: 0 0 0 30px #ea4c89;
+}
