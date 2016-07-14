@@ -1,5 +1,26 @@
 var portfolioData = [
     {
+        id : 7,
+        name : "What I Watched",
+        tags : ["css", "ajax"],
+        url : "http://whatiwatched-samliweisen.rhcloud.com",
+        image : "assets/images/whatiwatch.jpg",
+    },
+    {
+        id : 6,
+        name : "SPG Cravings",
+        tags : ["css", "ajax"],
+        url : "http://www.spgcravings.com/",
+        image : "assets/images/spgcravings.jpg",
+    },
+    {
+        id : 5,
+        name : "Starwood Hotel Wifi Page",
+        tags : ["css", "ajax"],
+        url : "http://internet.alofthotels.com/aloft-abu-dhabi-hotel-3357",
+        image : "assets/images/hsia.jpg",
+    },
+    {
         id : 1,
         name : "W Verbier - Elevator",
         tags : ["css", "ajax"],
@@ -127,6 +148,12 @@ var skillData = [
     {
         id : 9,
         name: "angularjs",
+        color: "blue",
+        qualify: "50"
+    },
+    {
+        id : 10,
+        name: "react",
         color: "blue",
         qualify: "50"
     }

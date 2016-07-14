@@ -11,7 +11,7 @@
   font-weight: 300;
   src: local('Open Sans Light'),
   local('OpenSans-Light'),
-  url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+  url(//themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -19,7 +19,7 @@
   font-weight: 400;
   src: local('Open Sans'),
   local('OpenSans'),
-  url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+  url(//themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -27,7 +27,7 @@
   font-weight: 600;
   src: local('Open Sans Semibold'),
   local('OpenSans-Semibold'),
-  url(http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+  url(//themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -35,7 +35,7 @@
   font-weight: 400;
   src: local('Open Sans Italic'),
   local('OpenSans-Italic'),
-  url(http://themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+  url(//themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
 }
 
 
@@ -966,7 +966,7 @@ noindex:-o-prefocus, .item-skill span:after { /* Opera hack */
 }
 
 .portfolio-wrapper:hover {
-	background-size: 200%;
+	background-position: 50% 100%;
 }
 
 .item-portfolio img {

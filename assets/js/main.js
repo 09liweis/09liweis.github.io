@@ -132,7 +132,8 @@ $(window).load(function() {
 									//'<img src="' + portfolio.image + '" alt="" class="active"/>' +
 								'</div>' +
 								//'<span class="prev icon-chevron-left"></span>' +
-								'<a href="#page=portfolio&id=' + portfolio.id + '" class="zoom icon-fullscreen"></a>' +
+								//'<a href="#page=portfolio&id=' + portfolio.id + '" class="zoom icon-fullscreen"></a>' +
+								'<a target="_blank" href="' + portfolio.url + '" class="zoom icon-fullscreen"></a>' +
 								//'<span class="next icon-chevron-right"></span>' +
 							'</div>' +
 							'<div id="item-portfolio' + portfolio.id + '" class="item item-large item-portfolio-details">' +
@@ -145,7 +146,7 @@ $(window).load(function() {
 								'</div>' +
 								'<div class="text">' +
 									'<h1>' + portfolio.name + '</h1>' +
-									'<h4>Working demo: <a href="' + portfolio.url + '">Here</a></h4>' +
+									'<h4>Working demo: <a target="_blank" href="' + portfolio.url + '">Here</a></h4>' +
 									'<p>Donec aliquam feugiat tincidunt. In vitae nunc lacus. Proin nisi neque, facilisis semper rutrum a, fermentum ut sapien. Nulla ac velit non est sollicitudin facilisis. Nullam viverra vestibulum interdum. Suspendisse augue tellus, sollicitudin ut tristique ac, ornare in leo. Aliquam ipsum justo, rutrum eu ornare a, mattis ut leo. In vitae nunc lacus. Proin nisi neque, facilisis semper rutrum a, fermentum ut sapien.</p>' +
 								'</div>' +
 							'</div>';
@@ -276,7 +277,7 @@ $(window).load(function() {
 	/**/
 	/* map */
 	/**/
-	load_map();
+	//load_map();
 	
 	
 	/**/
