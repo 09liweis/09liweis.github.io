@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TIKO 3D</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <link href='//fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet' type='text/css'>
+    </head>
+    <body ng-app="tiko3d">
+        <ul class="header">
+            <li class="menu"><a data-target="page1" class="link">PAGE 1</a></li>
+            <li class="menu"><a data-target="page2" class="link">PAGE 2</a></li>
+            <li class="menu"><a data-target="page3" class="link">PAGE 3</a></li>
+        </ul>
+        <div class="wrapper" id="page1">
+            <div class="content">
+                <h3>Hey John Doe!</h3>
+                <h1>Are you ready?</h1>
+            </div>
+        </div>
+        <div class="wrapper" id="page2" ng-controller="todoController">
+            <h1 class="title">Todos</h1>
+            <form class="todo-form" ng-submit="addTodo()">
+                <input class="todo-input" ng-model="newTodo" placeholder="What needs to be done"/>
+            </form>
+            <ul class="todos" ng-show="todos.length">
+                <li class="todo" ng-repeat="todo in todos">
+                    {{todo}} <span class="delete" ng-click="removeTodo($index)"><img src="images/delete.png" /></span>
+                </li>
+            </ul>
+        </div>
+        <div class="wrapper" id="page3">
+            <div class="container">
+                <div class="float-left" id="left-border">
+                    <p class="measurement">Height:<br/>
+                    390mm
+                    </p>
+                </div>
+                <div class="float-left" id="tiko3d">
+                    <div id="circle"></div>
+                    <div id="circle-line"></div>
+                    <img src="images/tiko-box.png" alt="tiko box" />
+                    <div id="line"></div>
+                    <div id="bottom-border">
+                        <p class="measurement">Width: 237mm</p>
+                    </div>
+                </div>
+                <div class="float-left" id="details">
+                    <div class="text-block">
+                        <p>Spool Chamber<br/>
+                        Fits Standard 165mm 1KG<br/>
+                        Roll of 1.75mm Filament.
+                        </p>
+                    </div>
+                    <div class="text-block">
+                        <p>Materials Supported<br/>
+                        PLA, ABS, HIPS, Nylon and<br/>
+                        More.
+                        </p>
+                        <img class="image-icon" src="images/material.png" />
+                    </div>
+                    <div class="text-block">
+                        <p>Power Adapter<br/>
+                        output 9V - 3A<br/>
+                        Height x Width<br/>
+                        3.5mm x 6.5mm
+                        </p>
+                        <img class="image-icon" src="images/power.png" />
+                    </div>
+                    <div class="text-block">
+                        <p>Layer Resolution<br/>
+                        Thickness of the layers.<br/>
+                        .05 - .25mm
+                        </p>
+                        <img class="image-icon" src="images/layer.png" />
+                    </div>
+                    <div class="text-block">
+                        <p>Wi-Fi Specifications<br/>
+                        Station and Access Point.<br/>
+                        802.11 b/g/n</p>
+                        <img class="image-icon" src="images/wifi.png" />
+                    </div>
+                    <div class="text-block">
+                        <img src="images/nozzle-temp.png" />
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                <div id="what-in-box">
+                    <h3 class="inbox-title">What's in The Box...</h3>
+                    <div class="inbox-container">
+                        <div class="float-left in-box" id="filament">
+                            <img src="images/filament.png" />
+                            <p>1x Spool of Filament</p>
+                        </div>
+                        <div class="float-left plus">
+                            <img src="images/plus.png" />
+                        </div>
+                        <div class="float-left in-box" id="print-material">
+                            <img src="images/print-material.png" />
+                            <p>Additional<br/>Printed Materials</p>
+                        </div>
+                        <div class="float-left plus">
+                            <img src="images/plus.png" />
+                        </div>
+                        <div class="float-left in-box" id="power-adapter">
+                            <img src="images/power-adapter.png" />
+                            <p>1 x Power<br/>Adapter</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

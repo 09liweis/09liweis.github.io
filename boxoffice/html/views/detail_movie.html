@@ -1,0 +1,28 @@
+
+<section ng-controller="MovieDetailController">
+	<div class="movie_detail">
+		<div class="movie_poster float_left">
+			<img ng-src="{{data.images.large || '../imgs/movie.png'}}"/>
+		</div>
+		<div class="movie_content float_left">
+			<h2 class="movie_title">{{data.title}}</h2>
+			
+			<p>{{data.year}}</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	
+	<a class="button" href="{{data.alt}}" target="_blank">Go to Douban</a>
+	<p class="movie_summary">{{data.summary}}</p>
+	
+	<div class="casts">
+		<h3>Casts</h3>
+		<div class="cast float_left" ng-repeat="cast in data.casts">
+			<img ng-src="{{cast.avatars.small}}" />
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+
+
+
